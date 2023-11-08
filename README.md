@@ -1,4 +1,4 @@
-# EPC(Escola Piloto de Computação)-2023-PyautoGUI
+# Semana de Capacitação em Computação da UFERSA (CAPCOM)-2023-PyautoGUI
 ---
  Repository of the Introduction to PyautoGUI apresentation for the EPC 2023 - UFERSA  
  This repository contains 3 examples of automation using the **PyautoGUI** library:  
