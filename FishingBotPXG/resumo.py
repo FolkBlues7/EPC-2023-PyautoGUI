@@ -66,7 +66,7 @@ import pyautogui
 
 #------------------------------------
 #mostra uma popup na tela e pausa a aplicação até que você clique em OK
-#pyautogui.alert('Você quer reiniciar a aplicação?')
+#pyautogui.alert('Você pode criar um PopUP?')
 #print("Clicou em OK")
 
 
@@ -75,7 +75,13 @@ import pyautogui
 #------------------------------------
 #AQUI FICA MUITO MAIS LEGAL AINDA!!!!
 #instalação: pip install Pillow
-# region = (10, 100, 90, 30)
+region = (10, 100, 90, 30)
 #pyautogui.locateOnScreen("CaminhoImagem.PNG",confidence=0.0,region=(x,y,z,w) grayscale=False)
+#pyautogui.locateAllOnScreen("CaminhoImagem.PNG",confidence=0.0,region=(x,y,z,w) grayscale=False)
+#pyautogui.locateCenterOnScreen("CaminhoImagem.PNG",confidence=0.0,region=(x,y,z,w) grayscale=False)
+#pyautogui.locateAllOnScreen("CaminhoImagem.PNG",confidence=0.0,region=(x,y,z,w) grayscale=False)
 
+#------------------------------------
+
+#e acabou!
 
