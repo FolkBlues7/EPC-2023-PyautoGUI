@@ -11,6 +11,7 @@ import pyautogui
 
 #Printar posição do mouse:
 #pyautogui.position()
+pyautogui.displayMousePosition()
 #print(pyautogui.position())
 
 #------------------------------------
@@ -62,7 +63,7 @@ import pyautogui
 
 #------------------------------------
 #Escrever na tela?
-#pyautogui.typewrite('Sim, eu jogo de malphite, como adivinhou ?\n', interval=0)
+#pyautogui.typewrite('Digitando na tela!\n e quebra de linha', interval=0)
 
 #------------------------------------
 #mostra uma popup na tela e pausa a aplicação até que você clique em OK
