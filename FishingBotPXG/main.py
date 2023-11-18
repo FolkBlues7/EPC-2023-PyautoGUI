@@ -60,6 +60,7 @@ def solvePuzzle():
                 if pg.pixelMatchesColor(958 ,770,(153, 110, 56)) == True:
                     print("retornando!")
                     return
+            print("chegou no espaço")
             if blueBar.top > fishPuzzle.top:
                 key.press('space')
             else:
@@ -67,7 +68,7 @@ def solvePuzzle():
             
 
 
-#X:  958 Y:  770 RGB: ( 22,  22,  27)
+#X:  95 Y:  770 RGB: ( 22,  22,  27)
 def stopPokemon():
     pg.moveTo(858, 529)
     key.press_and_release('backspace')
