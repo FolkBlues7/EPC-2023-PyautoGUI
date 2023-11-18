@@ -43,7 +43,6 @@ def checkHeal(): #use potion when necessary
     if (pg.pixelMatchesColor(199, 58,(16,16,16)) == True):
         key.press_and_release('F1')
         
-
 puzzleRegion = (952, 496, 14, 344)
 def solvePuzzle():
     if(pg.pixelMatchesColor(958, 822, (68, 145, 252)) == True):
@@ -67,8 +66,6 @@ def solvePuzzle():
                 key.release('space')
             
 
-
-#X:  95 Y:  770 RGB: ( 22,  22,  27)
 def stopPokemon():
     pg.moveTo(858, 529)
     key.press_and_release('backspace')
