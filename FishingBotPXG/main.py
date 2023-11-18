@@ -45,31 +45,37 @@ def checkHeal(): #use potion when necessary
         
 
 puzzleRegion = (952, 496, 14, 344)
-def solvePuzzle():#solve the fishing minigame
+def solvePuzzle():
     if(pg.pixelMatchesColor(958, 822, (68, 145, 252)) == True):
         while True:
-            if (checkCreatures() == True):
-                break
-            blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.9)
+            print("resolvendo puzzle")
+            blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.8)
             fishPuzzle = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/fishPuzzle.png",region=puzzleRegion, confidence=0.8, grayscale=True)
-            while(blueBar == None or fishPuzzle == None):
-                blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.9)
+            #this while garantee that blueBar and fishPuzzle will have a value before the algorithm proceed
+            print("primeiro while")
+            while blueBar == None or fishPuzzle == None:
+                blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.8)
                 fishPuzzle = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/fishPuzzle.png",region=puzzleRegion, confidence=0.8, grayscale=True)
-                if (checkCreatures() == True):
-                    break
-            if (checkCreatures() == True):
-                    break
-            if (blueBar.top > fishPuzzle.top):
+                print("segundo while")
+                if pg.pixelMatchesColor(958 ,770,(153, 110, 56)) == True:
+                    print("retornando!")
+                    return
+            if blueBar.top > fishPuzzle.top:
                 key.press('space')
             else:
                 key.release('space')
-            if (pg.pixelMatchesColor(959, 501,(68, 149, 252)) == True): #se a barra chegar ao topo, solta a hotkey
-                key.release('space')
+            
 
-pg.pixelMatchesColor(959, 501,(68, 149, 252))
+
+#X:  958 Y:  770 RGB: ( 22,  22,  27)
+def stopPokemon():
+    pg.moveTo(858, 529)
+    key.press_and_release('backspace')
+    pg.sleep(1)
+    key.press_and_release('F10') #stop the pokemon
+            
 
 key.wait('h')
-
 while True:
     pg.sleep(1)
     startFishing()
@@ -80,3 +86,5 @@ while True:
     pg.sleep(1)
     key.press_and_release('F12') #autoloot    
     key.press_and_release('F3') #use food
+    stopPokemon()
+    
