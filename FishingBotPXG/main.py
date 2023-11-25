@@ -85,4 +85,5 @@ while True:
     key.press_and_release('F12') #autoloot    
     key.press_and_release('F3') #use food
     stopPokemon()
+    checkHeal()
     
