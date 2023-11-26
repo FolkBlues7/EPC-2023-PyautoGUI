@@ -4,83 +4,83 @@ import keyboard
 #This are is responsable for fiding the waypoint and moving the character
 miniMapRegion = [1752, 1, 106, 110]
 def moveMinimapSimbol_1():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_01.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_01.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_2():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_02.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_02.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_3():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_03.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_03.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_4():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_04.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_04.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_5():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_05.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_05.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_6():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_06.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_06.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_7():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_07.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_07.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_8():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_08.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_08.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_9():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_09.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_09.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_10():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_10.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_10.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_11():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_11.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_11.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_12():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_12.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_12.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_13():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_13.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_13.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_14():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_14.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_14.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_15():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_15.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_15.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_16():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_16.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_16.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_17():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_17.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_17.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_18():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_18.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_18.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_19():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_19.png", region=miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_19.png", region=miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 def moveMinimapSimbol_20():
-    coordinate = pyautogui.locateCenterOnScreen("imagens/miniMapIcon_20.png", region= miniMapRegion , confidence= 0.8)
+    coordinate = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/miniMapIcon_20.png", region= miniMapRegion , confidence= 0.8)
     pyautogui.leftClick(coordinate.x, coordinate.y)
 
 #responsable for taking loot from the bodies, not done yet! PRE ALPHA
@@ -104,7 +104,7 @@ def checkHeal():
 #responsabel to eat if the character is hungry
 statusBar = [820, 37, 105, 13]
 def checkHungry():
-    result = pyautogui.locateOnScreen("imagens/hungryIcon.png", confidence=0.8)
+    result = pyautogui.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/hungryIcon.png", confidence=0.8)
     print(result)
     if (result != None):
         print(result)
@@ -113,7 +113,7 @@ def checkHungry():
 #check if there is wasps in the battle list
 battleListCoordinate = [1569, 0, 175,463]
 def checkCombat():
-    if(pyautogui.locateOnScreen("imagens/wasp.png", region= battleListCoordinate, confidence=0.8)!=None):
+    if(pyautogui.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/wasp.png", region= battleListCoordinate, confidence=0.8)!=None):
         return True
     else:
         return False
@@ -125,14 +125,14 @@ def killMonsters():
 
 #drop to the next floor
 def holeDown():
-    result = pyautogui.locateOnScreen("imagens/holeDown.png", confidence = 0.8)
+    result = pyautogui.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/holeDown.png", confidence = 0.8)
     x, y = pyautogui.center(result)
     pyautogui.leftClick(x,y)   
     pyautogui.sleep(10)
 
 #use hope when the floor is wiped
 def useHopeSecondeFloor():
-    result = pyautogui.locateCenterOnScreen("imagens/anchorSecondFloor.png", confidence= 0.8)
+    result = pyautogui.locateCenterOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\CaveHunting\imagens/anchorSecondFloor.png", confidence= 0.8)
     pyautogui.moveTo(result.x - 470, result.y -320)
     pyautogui.press('F3')
     pyautogui.leftClick()

@@ -1,6 +1,6 @@
 import ctypes
 import pygetwindow as gw
-
+#this code is reponsable for setting opacity 1 on tibia's screem and alowing us to use OBS and python
 GWL_EXSTYLE = -20
 WS_EX_LAYERED = 0x00080000
 LWA_ALPHA = 0x00000002
