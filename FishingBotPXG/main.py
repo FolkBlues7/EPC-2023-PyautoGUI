@@ -2,6 +2,8 @@ import pyautogui as pg
 import keyboard as key
 import random
 
+#ATENÇÃO! MUDE O CAMINHOS DOS ARQUIVOS PARA SEU DIRETÓRIO RESPECTIVO QUANDO BAIXA-LO!
+
 fishingSpots = [(543, 209, 90, 94),(358, 394, 90, 94),(358, 301, 90, 94)]
 def startFishing(): #throws the bait and push it in the right time
     randomSpot = random.choice(fishingSpots)
@@ -51,15 +53,12 @@ def solvePuzzle():
             blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.8)
             fishPuzzle = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/fishPuzzle.png",region=puzzleRegion, confidence=0.8, grayscale=True)
             #this while garantee that blueBar and fishPuzzle will have a value before the algorithm proceed
-            print("primeiro while")
             while blueBar == None or fishPuzzle == None:
                 blueBar = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/blueBar.png",region=puzzleRegion, confidence=0.8)
                 fishPuzzle = pg.locateOnScreen("D:\EPC Github\EPC-2023-PyautoGUI\FishingBotPXG\pictures/fishPuzzle.png",region=puzzleRegion, confidence=0.8, grayscale=True)
-                print("segundo while")
                 if pg.pixelMatchesColor(958 ,770,(153, 110, 56)) == True:
-                    print("retornando!")
+
                     return
-            print("chegou no espaço")
             if blueBar.top > fishPuzzle.top:
                 key.press('space')
             else:
